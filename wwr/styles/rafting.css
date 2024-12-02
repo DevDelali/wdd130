@@ -17,9 +17,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-h1{
+/*h1{
   text-align: center;
-}
+}*/
 
 p {
   color: var(--text-color);
@@ -29,7 +29,7 @@ p {
   position: relative;
   background-image: url('hero-image.jpg');
   background-size: cover;
-  height: 65vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,4 +113,45 @@ nav {
 
 .footer_align{
  align-items: end;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap:10px;
+}
+
+.grid-container img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+nav {
+  padding: 1rem;
+  display:end;
+  justify-content: center;
+  align-items: center;  
+  }
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
 }
