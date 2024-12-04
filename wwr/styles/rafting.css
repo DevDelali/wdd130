@@ -116,20 +116,22 @@ nav {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  flex-direction: row;
   gap:10px;
 }
 
 .grid-container img{
-  width: 100%;
+  width: auto;
   height: auto;
   margin-bottom: 10px;
+
 }
 
 nav {
   padding: 1rem;
-  display:end;
+  display:grid;
   justify-content: center;
   align-items: center;  
   }
