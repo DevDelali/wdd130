@@ -43,7 +43,7 @@ p {
 
 .hero {
   position: relative;
-  background-image: url('hero-image.jpg');
+  background-image: url('raftadventure.jpg');
   background-size: cover;
   height: 75vh;
   display: flex;
@@ -176,13 +176,14 @@ figcaption {
 
 .footer {
   display: flex;              /* Use flexbox for layout */
-  justify-content: flex-end;  /* Align items to the right */
+   /* Align items to the right */
   padding: 20px;             /* Add some padding for spacing */
   background-color: #f8f9fa; /* Optional: Background color for the footer */
 }
 
 .footer a {
-  margin: 0 10px;           /* Space between icons */
+  margin: 0 10px; 
+  justify-content: flex-end;           /* Space between icons */
   text-decoration: none;     /* Remove underline from links */
 }
 
