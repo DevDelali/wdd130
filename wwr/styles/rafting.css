@@ -175,8 +175,7 @@ figcaption {
 }
 
 .footer {
-  display: flex;              /* Use flexbox for layout */
-   /* Align items to the right */
+  display: flex;              /* Use flexbox for layout */ /* Align items to the right */
   padding: 20px;             /* Add some padding for spacing */
   background-color: #f8f9fa; /* Optional: Background color for the footer */
 }
@@ -189,7 +188,8 @@ figcaption {
 
 .footer img {
   width: 24px;               /* Set a fixed width for icons */
-  height: 24px;              /* Set a fixed height for icons */
+  height: 24px;
+  justify-content: flex-end;              /* Set a fixed height for icons */
 
 }
 
