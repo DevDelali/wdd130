@@ -15,21 +15,34 @@
             boundaries.</p>
 
         <h2>Task 1: Swap Block and Inline Elements</h2>
-        <div>In the HTML of this document, change this div element to a span element.</div>
+        <span>In the HTML of this document, change this div element to a span element.</span>
+
+        <!-- Live demo for Task 1 -->
+        <div style="margin-top:8px;">
+            <div style="background:#e0f7fa;border:1px solid #00796b;padding:8px;display:block;">This is a &lt;div&gt; (block element) — it starts on a new line and stretches the full available width.</div>
+            <span style="background:#fff3e0;border:1px solid #e65100;padding:4px;">This is a &lt;span&gt; (inline element) — it stays in the flow and only takes the width of its content.</span>
+        </div>
 
         <p class="question">What happens to the layout? Does it still take up the full width?</p>
+        <p class="answer" style="font-size:0.9em;color:#555;">Answer: The &lt;div&gt; (block) appears on its own line and fills the width; the &lt;span&gt; (inline) stays within the line and only as wide as its text.</p>
 
         <h2>Task 2: Nesting Inline in Block</h2>
         <p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element;</span></p>
+        <p>I added the <em> italic</em> tag to see the word italic and also a <strong> bold </strong> tag to see how its
+            displayed</p>
         <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; inside the paragraph. Observe
             how it flows within the line.</p>
+        <p class="answer" style="font-size:0.9em;color:#555;">Answer: Inline elements (like &lt;em&gt; and &lt;strong&gt;) stay on the same line and only take as much width as their content. They don't force a line break.</p>
 
         <h2>Task3: Nesting Block in Inline</h2>
         <span>Try placing a &lt;div&gt; inside a &lt;span&gt; element.</span>
-            <p class="question">What error or layout issue do you see? Why does this happen?</p>
+        <span>
+            <div>Placed a Nesting Block in an Inline Block to see the outcome</div>
+        </span>
+    <p class="question">What error or layout issue do you see? Why does this happen?</p>
+    <p class="answer" style="font-size:0.9em;color:#555;">Answer: Placing a block-level &lt;div&gt; inside an inline &lt;span&gt; is invalid HTML. Browsers may move the block out of the inline or render unexpected spacing—so avoid nesting block elements inside inline elements.</p>
 
-
-            <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
+        <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
         &lt;img&gt; element
         <img src="images/castle.webp" alt="placeholder image (images are inline)" width="300" height="300">
         <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor element</a>
