@@ -72,10 +72,13 @@ a {
 }
 
 .hero article{
-    margin-top: -200px;
-    position: relative;
-    background: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.7);
     padding: 16px;
+    margin: 0;
 }
 
 .socialmedia a {
