@@ -13,8 +13,8 @@
     box-sizing: border-box;
  }
  header{
-    /* background-color: var(--accent1-color); */
-   color: var(--accent2-color);
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
  }
 
 body{
@@ -55,7 +55,7 @@ a {
 }
 
  h1 {
-    position: relative;
+    position: absolute;
     top: 20px;
     width:100%;
     padding: 16px;
@@ -66,11 +66,17 @@ a {
  }
 
  .hero article img{
+    position: absolute;
     float:right;
     width: 125px;
     margin: 10px 10px;
     align-content: center;
  }
 .hero article{
-    position:relative;
+    position:absolute;
  }
+
+ .socialmedia {
+
+ }
+
