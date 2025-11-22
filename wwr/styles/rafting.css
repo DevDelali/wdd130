@@ -16,6 +16,9 @@ header{
    color: var(--accent2-color);
    padding: 16px 0;
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   display: grid;
+   align-items: center;
+   gap: 20px;
 }
 
 body{
@@ -100,12 +103,6 @@ a {
 header img {
     width: 100px;
     height: auto;
-}
-
-header {
-   display: grid;
-   align-items: center;
-   gap: 20px;
 }
 
 .navigation {
