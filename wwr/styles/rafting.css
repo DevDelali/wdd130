@@ -14,8 +14,8 @@
 header{
    /* background-color: var(--accent1-color); */
    color: var(--accent2-color);
-    padding: 16px 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   padding: 16px 0;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 body{
@@ -43,6 +43,7 @@ body{
 
 a {
    text-decoration: none;
+   
 }
 
  .hero{
@@ -79,7 +80,7 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.7);
     padding: 16px;
     margin: 0;
 }
@@ -152,7 +153,6 @@ footer {
    display: flex;
    text-align: center;
    border-top: 1px solid var(--accent1-color);
-   display: flex;
    
 }
 
