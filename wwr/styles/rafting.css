@@ -1,4 +1,4 @@
- :root{
+:root{
     --primary-color: rgba(105, 187, 242, 1);
     --accent1-color: rgba(38, 70, 83, 1);
     --accent2-color: rgba(24, 40, 227, 1);
@@ -20,7 +20,9 @@ header{
    padding: 16px 0;
    box-shadow: 0 2px 8px var(--black-10);
    display: grid;
+   grid-template-columns: auto 1fr auto;
    align-items: center;
+   justify-items: center;
    gap: 20px;
 }
 
@@ -91,13 +93,21 @@ a {
     margin: 0;
 }
 
+.socialmedia {
+   display: flex;
+   gap: 15px;
+   justify-content: flex-end;
+   align-items: center;
+}
+
 .socialmedia a {
    text-decoration: none;
-   flex-flow: wrap;
-  
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+}
 
- }
- .id {
+.id {
    display: flex;
    align-items: center;
    gap: 30px;
@@ -151,15 +161,7 @@ figcaption {
 
 footer {
    display: flex;
-   text-align: center;
+   justify-content: space-between;
+   align-items: center;
    border-top: 1px solid var(--accent1-color);
-   
 }
-
-footer p {
-    align-content: center;
-}
-
-footer a {
-
-margin: 30px;}
