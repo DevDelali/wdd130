@@ -24,7 +24,7 @@ header{
    align-items: center;
    justify-items: center;
    gap: 20px;
-}
+ }
 
 body{
     font-family: var(--body-font);
