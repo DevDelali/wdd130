@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header></header>
+    <h1>WDD130 | HTML Forms- User Poll</h1>
+    <main></main>
+    <form>
+        <h2>Contact Information</h2>
+        <div class="form-item column2">
+            <label for="fullname">Fullname :</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-item column2">
+            <label for="useremail">Email: </label>
+            <input for="email" id="useremail" name="useremail" required>
+        </div>
+
+        <h2>Questions</h2>
+        <div class="form-item column1">
+            <label class="alighnment" for="quantity">Choose your favorite browser</label>
+            <select name="quantity" id="quantity">
+                <option deselect value="placeholder"> </option>
+                <option value="chrome">Chrome</option>
+                <option value="edge">Edge</option>
+                <option value="safari">Safari</option>
+                <option value="brave">Brave</option>
+                <option value="other">Others</option>
+            </select>
+        </div>
+        <div class="form-item column1">
+            <label for="pet">Do you have a household pet</label>
+            <input type="checkbox" id="pet" name="pet">
+        </div>
+        <label for="feedback">List the places you've lived:</label>
+        <textarea name="feedback" id="feedback" rows="4"
+            placeholder="Tema , Ashaiman, Dodowa, Ningo , Teshie"></textarea>
+
+        <button type="submit">Submit Poll</button>
+        <footer> © 2025 | HTML Form - User Form Activity | Nyakey Paul </footer>
+</body>
+
+</html>
