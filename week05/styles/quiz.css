@@ -5,7 +5,7 @@
 }
 main {
     max-width: 500px;
-    margin: 1rem ;
+    margin: 0 auto ;
     border: 2px solid rgb(0 0 0 / 10%);
     padding: auto;
     
