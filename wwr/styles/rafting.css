@@ -306,7 +306,7 @@ footer {
    margin-bottom: 20px;
 }
 
-.employees-container {
+.employees-container { 
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 20px;
@@ -362,11 +362,23 @@ footer {
 table {
    width: 100%;
    border: 1px solid var(--accent1-color);
-   /* border-collapse: collapse; */
 }
 
-th, td {
+th,
+td {
    border: 1px solid var(--accent1-color);
    padding: 5px;
    text-align: left;
+}
+
+/* Created a horizontal scrolling container for trip packages */
+.container{
+   overflow-x: auto;
+}
+
+.wrapper {
+   margin: 0 16px;
+   display: grid;
+   grid-auto-flow: column;
+   gap: 1rem;
 }
